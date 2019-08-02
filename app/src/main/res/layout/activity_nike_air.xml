@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NikeAirActivity">
+    tools:context=".NikeAirActivity"
+    android:background="@color/backgroundcolor">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="HILIH"
-        android:gravity="center"
-        android:textSize="50sp"/>
+        android:layout_width="0dp"
+        android:textSize="10sp"
+        android:id="@+id/textnikeair"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="urlnikeair"
+        android:layout_height="0dp" />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagenikeair"
+        android:scaleType="centerCrop"
+        android:layout_height="350dp" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_marginTop="360dp"
+        android:layout_height="30dp"
+        android:text="Nike Air"
+        android:textSize="17sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_marginTop="395dp"
+        android:layout_height="450dp"
+        android:text="DESKRIPSI \n\n\nNike Air adalah jenis lini sepatu buatan Nike yang paling terkenal dan popular serta paling laris di pasaran. Nike Air tersedia untuk sepatu lari, sepatu berjalan, dan sepatu training. Teknologi jenis sepatu Nike Air menggunakan bantalan berupa udara. Nike Air Max, yang memiliki beberapa bagian bantalan merupakan salah satu sepatu terlaris di dunia dari lini Nike Air sejak 1980-an. "
+        android:textStyle="bold"/>
+
+</RelativeLayout>

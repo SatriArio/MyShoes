@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConversePurcellActivity">
+    tools:context=".ConversePurcellActivity"
+    android:background="@color/backgroundcolor">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="TEST 5"
-        android:textSize="50sp"
-        android:gravity="center" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_width="0dp"
+        android:textSize="10sp"
+        android:id="@+id/textpurcell"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="urlpurcell"
+        android:layout_height="0dp" />
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagepurcell"
+        android:scaleType="centerCrop"
+        android:layout_height="350dp" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_marginTop="360dp"
+        android:layout_height="30dp"
+        android:text="Converse Jack Purcell LTT Ox Wanderer"
+        android:textSize="15sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_marginTop="395dp"
+        android:layout_height="450dp"
+        android:text="DESKRIPSI \n\n\nSepatu bergaya klasik dengan nuansa 90-an ini dikenal sangat nyaman dipakai. Saking nyamannya, bahkan ada yang bilang hampir seperti tidak sedang memakai sepatu. Dengan kenyamanan tersebut, sepatu model low cut ini bisa Anda gunakan untuk berbagai macam keperluan. Mulai dari olahraga di gym, basket, atau pun untuk keperluan kasual sehari-hari."
+        android:textStyle="bold"/>
+</RelativeLayout>

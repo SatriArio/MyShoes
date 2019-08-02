@@ -22,7 +22,7 @@
         android:layout_height="30dp"
         android:background="@drawable/search_layout"
         android:ems="10"
-        android:hint="Search Here"
+        android:hint="Working soon! "
         android:inputType="textPersonName"
         android:textColor="#999999"
         android:textSize="16sp" />

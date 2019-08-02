@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Balance1300Activity">
+    tools:context=".Balance1300Activity"
+    android:background="@color/backgroundcolor">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="HILIH"
-        android:gravity="center"
-        android:textSize="50sp"/>
+        android:layout_width="0dp"
+        android:textSize="10sp"
+        android:id="@+id/textbalance1300"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="urlbalance1300"
+        android:layout_height="0dp" />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagebalance1300"
+        android:scaleType="centerCrop"
+        android:layout_height="350dp" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_marginTop="360dp"
+        android:layout_height="30dp"
+        android:text="New Balance 1300"
+        android:textSize="17sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_marginTop="395dp"
+        android:layout_height="450dp"
+        android:text="DESKRIPSI \n\n\nKita mundur kembali ke 1984 ketika New Balance mengenalkan seri 1300 kepada publik. Sama halnya dengan seri 990, sepatu ini mengejutkan publik lewat harga yang dipatok. Di zaman itu, Anda haru merogoh kocek AS$130 untuk mendapatkan sepatu ini. Walau begitu, cara itu justru membuat seri 1300 laku keras karena publik semakin penasaran dengan kenyamanan yang dijanjikan di sepatu ini."
+        android:textStyle="bold"/>
+</RelativeLayout>

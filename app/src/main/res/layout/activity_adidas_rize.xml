@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdidasRizeActivity">
+    tools:context=".AdidasRizeActivity"
+    android:background="@color/backgroundcolor">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TEST 4"
-        android:textSize="50sp"
-        android:gravity="center" />
+        android:layout_width="0dp"
+        android:textSize="10sp"
+        android:id="@+id/textrize"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="urlrize"
+        android:layout_height="0dp" />
 
-</LinearLayout>
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagerize"
+        android:scaleType="centerCrop"
+        android:layout_height="350dp" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_marginTop="360dp"
+        android:layout_height="30dp"
+        android:text="Adidas Superstar Rize"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_marginTop="395dp"
+        android:layout_height="450dp"
+        android:text="DESKRIPSI \n\n\nPenampilan Adidas Superstar yang satu ini sedikit berbeda, karena memiliki sol luar yang chunky alias tebal. Sepatu sneakers ini didominasi warna putih dengan kombinasi warna pada desain tiga garis di bagian atasnya.\n\nTampilan sepatu ini sangat pas dengan gaya kasual kamu sehari-hari. Padukan dengan kemeja denim dan celana skinny agar penampilan makin sempurna. "
+        android:textStyle="bold"/>
+
+</RelativeLayout>
